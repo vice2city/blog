@@ -15,10 +15,10 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
+  about: /about/
   articles: /archives/
   categories: /categories/
-  Game Life: https://vicy.notion.site/Game-Life-90e44d9aa0f34ebd8b2458a218907e2c
-  about: /about/
+  search: /search/
 
 
 # Links to your social media accounts.
@@ -148,8 +148,8 @@ disqus:
 
 # Fill in your Utterances data to enable Utterances comments
 utterances:
-  enabled: false
-  repo: owner/githubrepo
+  enabled: true
+  repo: vice2city/blog
   issue_term: pathname
   label: Comment
   theme: github-dark
@@ -161,8 +161,8 @@ google_analytics:
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
-  enabled: false
-  id: 2e6da3c375c8a87f5b664cea6d4cb29c
+  enabled: true
+  id: 3bf0ade6366b0de1c901cebab0577af1
 
 # Fill in your Cloudflare Analytics tracking ID to enable Cloudflare Analytics.
 cloudflare_analytics:
